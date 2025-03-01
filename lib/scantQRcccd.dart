@@ -84,7 +84,9 @@ Ngày cấp CCCD: ${parts[6]}
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.blue),
                   textAlign: TextAlign.left,
                 )
-              : Container(),
+              : Container(
+                
+              ),
         ],
       ),
     );
