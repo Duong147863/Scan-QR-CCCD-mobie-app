@@ -11,7 +11,7 @@ class ScanCCCDScreen extends StatefulWidget {
 class _ScanCCCDScreenState extends State<ScanCCCDScreen> {
   File? _image;
   String? _qrText;
-
+  TextEditingController? fd;
   final ImagePicker _picker = ImagePicker();
 
   Future<void> _pickImage() async {
@@ -85,7 +85,7 @@ Ngày cấp CCCD: ${parts[6]}
                   textAlign: TextAlign.left,
                 )
               : Container(
-                
+
               ),
         ],
       ),
